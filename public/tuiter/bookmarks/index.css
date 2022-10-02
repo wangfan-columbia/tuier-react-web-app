@@ -1,0 +1,143 @@
+
+/*part A head */
+.wd-bookmark-a-head{
+    margin-left: 16px;
+    margin-top: 12px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+.wd-bookmark-a-txt{
+    color: lightgray;
+    font-size: 13px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+
+/* Common style for border*/
+.wd-border-style{
+    border-style: solid;
+    color: rgb(47,51,54);
+    border-width: 1px;
+}
+
+
+.wd-background-color{
+    background-color : black;
+}
+
+.wd-img-b{
+    float: left;
+    width:48px;
+    border-radius: 50px;
+    margin-left: 16px;
+    margin-top: 12px;
+
+
+}
+
+.wd-c-style{
+
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-c-author-text{
+    margin-left: 12px;
+    font-weight: bold;
+
+
+}
+
+.wd-c-authorId{
+    color: lightgray;
+    font-weight: initial;
+}
+
+
+.wd-d-text{
+    margin-left: 76px;
+    margin-top: 1px;
+    color: white;
+    font-size: 15px;
+
+
+    margin-bottom: 12px;
+    width: 506px;
+    clear: top;
+
+}
+
+.wd-img-E{
+    width: 504px;
+    height: 264px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.wd-border-E{
+    margin-left: 76px;
+    width: 504px;
+
+    border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    color: rgb(47,51,54);
+
+}
+
+.wd-border-F{
+
+    margin-left: 76px;
+    width: 504px;
+    border-radius: 0 0 20px 20px;
+    border-style: solid;
+    color: rgb(47,51,54);
+
+
+}
+
+.wd-F-text{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 12px
+
+}
+
+
+.wd-F-text-explain{
+    font-size: 15px;
+    color: lightgray;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+
+}
+
+.wd-G-style{
+    margin-left: 76px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    display: inline;
+}
+
+
+.wd-img-G{
+    color: white;
+}
+
+.wd-G-icon{
+    margin-left: 12px;
+}
+
+.wd-G-number{
+    padding-right: 65px;
+}
+
+.wd-G-heart-color{
+    color: red;
+}

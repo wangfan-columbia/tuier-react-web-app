@@ -1,0 +1,12 @@
+
+/* Common style for border*/
+.wd-border-style{
+    border-style: solid;
+    color: rgb(47,51,54);
+    border-width: 1px;
+}
+
+
+.wd-background-color{
+    background-color : black;
+}
