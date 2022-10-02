@@ -10,7 +10,7 @@
 
 .wd-gear {
     position:relative;
-    margin-right: 12px ;
+    margin-left: 12px;
     color: white;
 }
 .wd-searchBar{
@@ -18,7 +18,7 @@
     border-radius: 50px;
     margin-left: 16px;
     color : white;
-    width: 300px;
+    width: 500px;
 }
 
 
