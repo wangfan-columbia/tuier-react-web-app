@@ -151,7 +151,7 @@
 .wd-tweet-bnt{
 
     position: absolute;
-    
+
     margin-left: 50px;
     width: 150px;
 
@@ -179,9 +179,9 @@
 }
 
 @media screen and (max-width: 992px){
-            .hidden-sm{
-                display: none;
-            }
+    .hidden-sm{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -190,3 +190,44 @@
     }
 }
 
+
+.wd-list-item-color{
+    color: white;
+    background-color: black;
+}
+
+.list-group-item-mine{
+
+    color: #282c34;
+}
+
+.wd-Halle-text-color{
+    color: dodgerblue;
+}
+
+.wd-size-text-date{
+    margin-left: 5px;
+    font-size: 13px;
+    color: rgb(110,118,125);
+
+}
+
+.icon-white{
+    color: white;
+}
+
+
+.wd-music{
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    width: 20%;
+    color: white;
+    font-size: 15px;
+}
+
+
+.wd-underline{
+    border-bottom-style: solid ;
+    border-bottom-color:  dodgerblue;
+}
