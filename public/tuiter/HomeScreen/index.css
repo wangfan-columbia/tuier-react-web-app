@@ -1,0 +1,212 @@
+
+.wd-div-border{
+    border-style: solid;
+    border-color: rgb(47,51,54);
+    border-width: 0.1px;
+}
+.wd-bg-color {
+    background: black;
+}
+
+.wd-gear {
+    position:relative;
+    margin-left: 12px;
+    color: white;
+}
+.wd-searchBar{
+    background: darkgray;
+    border-radius: 50px;
+    margin-left: 16px;
+    color : white;
+    width: 500px;
+}
+
+
+
+.wd-item{
+    display: inline;
+    font-size: 15px;
+    font-style: initial;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.wd-a-item:hover{
+    color: rgb(29,161,242);
+    /*color:rgb(110,118,125);*/
+}
+
+.wd-a-item{
+    color:rgb(110,118,125);
+}
+
+
+.wd-suggested-post{
+    margin-left: 16px;
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+
+.wd-suggested-text{
+    margin-left: 16px;
+    color:white;
+    font-size: 16px;
+}
+
+.wd-news-company{
+    margin-left: 16px;
+    color:white;
+    font-size: 12px;
+}
+
+.wd-news-title{
+    margin-left: 16px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wd-news-style{
+
+    display: inline-block;
+}
+
+
+.wd-news-div{
+    height: 122px;
+
+}
+
+.wd-news-img{
+    float: right;
+    margin-right: 16px;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.wd-news-img2{
+
+    top:325px;
+    float: right;
+    margin-right: 16px;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.wd-news-D{
+    margin-left: 16px;
+    color:rgb(110,118,125);
+    font-size: 13px;
+}
+
+.wd-news-img3{
+
+    float: right;
+    top:425px;
+    margin-right: 16px;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.wd-news-img4{
+
+    float: right;
+    margin-right: 16px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+
+.wd-icon-navigation{
+    /*float: left;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 10px;
+    clear: bottom;*/
+    border-style: none;
+
+
+}
+
+.wd-nav-border {
+    border-style: solid;
+    border-color: lightgray;
+    border-top: 0px;
+    width: 150px;
+    height: 40px;
+}
+
+.wd-nav-border-first-top{
+    border-top: 1px;
+    border-style: solid;
+    border-color: lightgray;
+
+}
+
+.wd-nav-twitter-logo{
+
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 10px;
+
+}
+
+.wd-tweet-bnt{
+
+    position: absolute;
+    
+    margin-left: 50px;
+    width: 150px;
+
+}
+
+
+.wd-search-logo{
+    bottom:10px;
+    left:35px;
+}
+
+.wd-search-gear{
+    top:15px;
+}
+
+.wd-follow-logo{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+    .hidden-xs{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+            .hidden-sm{
+                display: none;
+            }
+}
+
+@media screen and (max-width: 1200px){
+    .hidden-lg {
+        display: none;
+    }
+}
+
+.wd-img-E{
+width: 504px;
+height: 264px;
+border-radius: 20px 20px 0 0;
+
+}
+
+.wd-border-E{
+    margin-left: 76px;
+    width: 504px;
+
+    border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    color: rgb(47,51,54);
+
+}
+
+.wd-text-post-small{
+    font-size: small;
+}

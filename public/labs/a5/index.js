@@ -318,19 +318,5 @@ child.css('background-color', 'blue')
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 $(init);
