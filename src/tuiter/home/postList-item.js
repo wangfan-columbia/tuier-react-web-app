@@ -29,7 +29,7 @@ const PostItem = (
                     <div className="row">
                         <div className="col-2">
 
-                              <img height={40} className="float-end rounded-pill"  src={`/images/${post.iconImage}`} />
+                              <img height={40} className="float-end rounded-pill" alt={"item-img"} src={`/images/${post.iconImage}`} />
                         </div>
                         <div className="col-10 ">
                             <div className=" fw-bolder">
@@ -45,7 +45,7 @@ const PostItem = (
                             <div className="border rounded border-secondary">
                                 <div>
           
-                                    <img className=" border-bottom rounded-top pt-0 border-secondary " src={`/images/${post.image}`} height={230} width={420} />
+                                    <img className=" border-bottom rounded-top pt-0 border-secondary " alt={"icon-img"} src={`/images/${post.image}`} height={230} width={420} />
                                 </div>
                                 <div className="fw-bolder ps-2 pe-1 fs-6">
                                 {post.title}
