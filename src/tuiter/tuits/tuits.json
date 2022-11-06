@@ -1,0 +1,53 @@
+
+
+
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "space.jpg",
+    "liked": true,
+    "replies": 721,
+    "retuits": 62,
+    "likes": 234,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+
+  {
+    "_id": 345,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "tesla.jpg",
+    "liked": true,
+    "replies": 451,
+    "retuits": 921,
+    "likes": 592,
+    "handle": "@Tesla",
+    "tuit": "Since Tesla CEO Elon Musk announced his bid to buy social network Twitter, shares in his electric vehicle maker have dipped by more than 35%, and closed down just 3.6% for the day on Friday, amid a market rally that followed a volatile week. By way of comparison, the Nasdaq Composite is down by about 18% over the same time frame. "
+  },
+
+  { "_id": 345,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "tesla.jpg",
+    "liked": false,
+    "replies": 849,
+    "retuits": 345,
+    "likes": 888,
+    "handle": "@Tesla",
+    "tuit": "Musk also said, given how many batteries this level of production would require, and all the metals and other materials that are required to build them, it seems more and more likely Tesla will need to be directly involved in mining, rather than relying completely on outside suppliers. "
+
+  }
+
+]
+
+
+
