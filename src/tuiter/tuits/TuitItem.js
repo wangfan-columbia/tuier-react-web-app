@@ -1,7 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 //import {deleteTuit} from "./tuits-reducer";
-import {deleteTuitThunk} from "../../services/tuits-thunks";
+import {deleteTuitThunk,updateTuitThunk} from "../../services/tuits-thunks";
 
 
 const TuitItem = (
@@ -57,7 +57,11 @@ const TuitItem = (
                         <i className={"fa fa-retweet ps-1 pt-3 text-secondary"}/>
                         <label className=" ps-1 pe-5 pt-3 text-secondary">{post.retuits}</label>
 
-                        <i className={"fa fa-heart ps-1 pt-3 text-secondary"}/>
+                        <i className={"fa fa-heart ps-1 pt-3 text-secondary"}
+                           onClick={()=> dispatch(updateTuitThunk({
+                                                                      ...post,
+                                                                      likes: post.likes + 1
+                                                                  }))}/>
                         <label className=" ps-1 pe-5 pt-3 text-secondary">{post.likes}</label>
 
                         <i className={"fa fa-upload ps-1 pt-3 text-secondary"}/>
