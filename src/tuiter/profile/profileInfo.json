@@ -1,8 +1,7 @@
 [
   {
     "_id": 888,
-    "firstName": "Fan",
-    "lastName": "Wang",
+    "Name": "Fan Wang",
     "handle": "@fanwang2364",
     "profilePicture": "fan.png",
     "bannerPicture": "neu.png",

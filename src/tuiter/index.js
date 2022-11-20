@@ -13,25 +13,27 @@ import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 
-import profileReducer from "./profile/profile-reducer";
+//import profileReducer from "./profile/profile-reducer";
 
-import editProfileReducer from "./edit-profile/edit-profile-reducer";
+//import editProfileReducer from "./edit-profile/edit-profile-reducer";
 
 import { configureStore }
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 
 import TuitsList from "./tuits/index.js";
-import ProfileComponent from "./profile";
+//import ProfileComponent from "./profile";
+import ProfileComponent from "./profile/index";
+//import EditProfileComponent from "./edit-profile";
 
-import EditProfileComponent from "./edit-profile";
+import profileReducer from "./reducers/profile-reducer";
 
-
+import EditProfile from "./profile/editProfile";
 
 const store = configureStore(
     // {reducer: {who: whoReducer, tuits: tuitsReducer, profileInfo: profileReducer, editProfile: editProfileReducer}});
-    {reducer: {who: whoReducer, tuitsData: tuitsReducer,profileInfo: profileReducer, editProfile: editProfileReducer}});
-
+    //{reducer: {who: whoReducer, tuitsData: tuitsReducer,profileInfo: profileReducer, editProfile: editProfileReducer}});
+{reducer: {who: whoReducer, tuitsData: tuitsReducer,profile: profileReducer}});
 
 
 function Tuiter() {
@@ -48,7 +50,7 @@ function Tuiter() {
                     <Route path="home"    element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
                     <Route path="profile" element={<ProfileComponent/>}/>
-                    <Route path="edit-profile" element={<EditProfileComponent/>}/>
+                    <Route path="edit-profile" element={<EditProfile/>}/>
                 </Routes>
 
             </div>
