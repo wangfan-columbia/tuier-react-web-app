@@ -64,6 +64,16 @@ const TuitItem = (
                                                                   }))}/>
                         <label className=" ps-1 pe-5 pt-3 text-secondary">{post.likes}</label>
 
+
+
+                        <i className={"fa  fa-thumbs-down ps-1 pt-3 text-secondary"}
+                           onClick={() => dispatch(updateTuitThunk({
+                                                                       ...post,
+                                                                       dislikes: post.dislikes + 1
+                                                                   }))}/>
+                        <label className=" ps-1 pe-5 pt-3 text-secondary">{post.dislikes}</label>
+
+
                         <i className={"fa fa-upload ps-1 pt-3 text-secondary"}/>
 
                     </div>
